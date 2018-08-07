@@ -1,0 +1,54 @@
+#calendar {
+	margin: auto;
+	margin-top: 50px;
+	border-spacing: 0px;
+	-webkit-touch-callout: none;     
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#month {
+	height: 150px;
+	width: 450px;
+	font-family: "微软雅黑";
+	font-size: larger;
+	table-layout: fixed;
+	background: #00CC99;
+	text-align: center;
+	color: #ffffff;
+}
+
+.arrow{
+	height: 150px;
+	width: 90px;
+	font-family: "微软雅黑";
+	font-size: larger;
+	table-layout: fixed;
+	background: #00CC99;
+	text-align: center;
+	color: #ffffff;
+}
+
+.week {
+	width: 90px;
+	height: 40px;
+	background: darkgray;
+	color: black;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+
+.date {
+	width: 30px;
+	height: 30px;
+	border-width: 5px 30px;
+	border-style: solid;
+	border-color: lightgray;
+	background: lightgray;
+	color: black;
+	text-align: center;
+	font-family: "微软雅黑";
+}
